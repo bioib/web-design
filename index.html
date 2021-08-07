@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Todos</title>
+        <!-- Meta Tags -->
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- CSS -->
+        <link rel="stylesheet" href="styles/main.css" />
+        <link rel="stylesheet" href="styles/bootstrap-icons.css" />
+        <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+        <!-- FontAwesome -->
+        <link rel="stylesheet" href="fontawesome/css/all.css" />
+    </head>
+    <body>
+        <!-- main container -->
+        <div class="main">
+            <!-- nav -->
+            <nav>
+                <div class="left-nav">
+                    <a href="#"><i class="fas fa-bars"></i></a>
+                    <a href="#"><i class="fas fa-th-large"></i><span>Dashboard</span></a>
+                    <a href="#"><i class="fas fa-folder"></i><span>Collections</span></a>
+                </div>
+                <div class="right-nav">
+                    <a href="#"><i class="fas fa-plus"></i></a>
+                    <a href="#"><i class="fas fa-search"></i></a>
+                    <a href="#"><i class="far fa-bell"></i></a>
+                    <a href="#"><img src="images/avatar.jpg" alt="User avatar" class="avatar" /></a>
+                </div>
+            </nav>
+            <!-- container -->
+            <div class="container">
+                <!-- left sidebar -->
+                <div class="left-sidebar">
+                    <p class="title">Collections</p>
+                    <div class="categories">
+                        <a href="#" class="cat-school active"><i class="fas fa-book-open"></i> School</a>
+                        <a href="#" class="cat-personal"><i class="fas fa-user"></i> Personal</a>
+                        <a href="#" class="cat-design"><i class="fas fa-paint-brush"></i> Design</a>
+                    </div>
+                </div>
+                <!-- content -->
+                <div class="content">
+                    <div class="title-box">
+                        <p class="title">
+                            <a href="#"><i class="fas fa-chevron-left"></i></a>School
+                        </p>
+                        <a href="#" id="menu"><i class="fas fa-ellipsis-h"></i></a>
+                    </div>
+                    <!-- add task -->
+                    <div class="add-task">
+                        <a href="#" id="addTask"><i class="fas fa-plus"></i> Add a task</a>
+                    </div>
+                    <!-- tasks -->
+                    <div class="tasks">
+                        <p id="taskCount">Tasks - 8</p>
+                        <!-- task 1 -->
+                        <div class="task">
+                            <p class="task-name"><span class="checkbox"></span>Finish the essay collaboration</p>
+                            <div class="task-content">
+                                <p id="subTask">0/1</p>
+                                <p class="deadline today"><i class="far fa-calendar"></i> Today</p>
+                            </div>
+                        </div>
+                        <div class="sub-task">
+                            <p class="task-name">Send collaboration files to Jerusha</p>
+                        </div>
+                        <!-- task 2 -->
+                        <div class="task">
+                            <p class="task-name"><span class="checkbox"></span>Finish the essay collaboration</p>
+                            <div class="task-content">
+                                <p id="subTask">0/3</p>
+                                <p class="deadline thursday"><i class="far fa-calendar"></i> Thursday</p>
+                            </div>
+                        </div>
+                        <!-- task 3 -->
+                        <div class="task">
+                            <p class="task-name"><span class="checkbox"></span>Read next chapter of the book in Danish</p>
+                        </div>
+                        <!-- task 4 -->
+                        <div class="task">
+                            <p class="task-name"><span class="checkbox"></span>Do the math for next monday</p>
+                            <div class="task-content">
+                                <p class="deadline monday"><i class="far fa-calendar"></i> Monday</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- completed tasks -->
+                    <div class="completed-tasks">
+                        <p id="completedCount">Completed - 2</p>
+                        <!-- task 1 -->
+                        <div class="completed-task">
+                            <i class="fas fa-check"></i>
+                            <p class="task-name">Send the finished assignment</p>
+                        </div>
+                        <!-- task 2 -->
+                        <div class="completed-task">
+                            <i class="fas fa-check"></i>
+                            <p class="task-name">Read english book chapter 5</p>
+                            <div class="task-content">
+                                <p class="deadline yesterday"><i class="far fa-calendar"></i> Yesterday</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FontAwesome -->
+        <!-- <script src="fontawesome/js/all.js"></script> -->
+    </body>
+</html>
+
+<!-- 
+    Credits
+
+    Favicon: https://www.vecteezy.com/vector-art/552105-flame-vector-icon
+ -->
